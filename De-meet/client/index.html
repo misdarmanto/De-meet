@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>De meet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="btn" id="join-btn">
+      Join <i class="fa-solid fa-video" style="padding-left: 5px"></i>
+    </div>
+
+    <div id="stream-wrapper">
+      <div id="video-streams"></div>
+      <div id="stream-controls">
+        <div class="btn" id="leave-btn">
+          <i class="fa-solid fa-right-from-bracket"></i>Leave
+        </div>
+        <div class="btn" id="mic-btn">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+        <div class="btn" id="camera-btn">
+          <i class="fa-solid fa-video"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script> -->
+  <script src="AgoraRTC_N-4.7.3.js"></script>
+  <script src="main.js"></script>
+</html>
